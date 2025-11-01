@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    -webkit-app-region: drag; /* allows you to drag the sticker */
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+  <img id="sticker" draggable="false" />
+  <script>
+    // Get the image name passed from main.js
+    const params = new URLSearchParams(window.location.search);
+    const imageName = params.get("image");
+    if (imageName) {
+      const img = document.getElementById("sticker");
+      img.src = `file://${__dirname.replace(/\\/g, "/")}/${imageName}`;
+    } else {
+      console.error("No image provided!");
+    }
+  </script>
+</body>
+</html>
