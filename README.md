@@ -11,7 +11,7 @@ DesktopPets lets you decorate your desktop with cute PNG stickers that float abo
 - 🩷 **Draggable Stickers**: Move them anywhere on your screen.  
 - 🐶 **Always on Top**: Stickers float above all other apps.  
 - 🎨 **Transparent Window**: Frameless and minimal, just your stickers.  
-- 🌈 **Flexible Layouts**: Grid, line, or scattered — customize your arrangement.  
+- 🌈 **Flexible Layouts**: Grid, line, or scattered, customize your arrangement.  
 - 🖼️ **Custom Stickers**: Easily add your own PNG images.  
 
 ---
